@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spinoza</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+    }
+
+    #controls {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 12px 16px;
+      background: white;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #controls strong {
+      margin-right: 5px;
+    }
+
+    #controls label {
+      white-space: nowrap;
+    }
+
+    #controls hr {
+      width: 100%;
+      border: 0;
+      border-top: 1px solid #ddd;
+      margin: 2px 0;
+    }
+
+    #controls button {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    #graph {
+      width: 100%;
+      overflow: auto;
+      background: #fff;
+    }
+
+    #graph svg {
+      display: block;
+    }
+
+    .node {
+      cursor: pointer;
+    }
+
+    #demonstration-panel {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 24px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fafafa;
+      line-height: 1.6;
+    }
+
+    #demonstration-panel[hidden] {
+      display: none;
+    }
+
+    #demonstration-title {
+      margin: 0 0 20px;
+      font-size: 22px;
+    }
+
+    .demonstration {
+      margin-bottom: 24px;
+    }
+
+    .demonstration:last-child {
+      margin-bottom: 0;
+    }
+
+    .demonstration h3 {
+      margin: 0 0 8px;
+      font-size: 17px;
+    }
+
+    .demonstration p {
+      margin: 0;
+      white-space: normal;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="controls">
+    <strong>Display types</strong>
+
+    <label>
+      <input type="checkbox" data-type="proposition" checked>
+      Propositions
+    </label>
+
+    <label>
+      <input type="checkbox" data-type="corollary" checked>
+      Corollaries
+    </label>
+
+    <label>
+      <input type="checkbox" data-type="scolie" checked>
+      Scolies
+    </label>
+
+    <label>
+      <input type="checkbox" data-type="definition" checked>
+      Definitions
+    </label>
+
+    <label>
+      <input type="checkbox" data-type="lemma" checked>
+      Lemmas
+    </label>
+
+    <label>
+      <input type="checkbox" data-type="axiom" checked>
+      Axioms
+    </label>
+
+    <label>
+      <input type="checkbox" data-type="postulate" checked>
+      Postulates
+    </label>
+
+    <button id="show-none" type="button">None</button>
+    <button id="show-all" type="button">All</button>
+
+    <hr>
+
+    <strong>Display parts</strong>
+
+    <label>
+      <input type="checkbox" data-part="1" checked>
+      Part I
+    </label>
+
+    <label>
+      <input type="checkbox" data-part="2" checked>
+      Part II
+    </label>
+
+    <label>
+      <input type="checkbox" data-part="3" checked>
+      Part III
+    </label>
+
+    <label>
+      <input type="checkbox" data-part="4" checked>
+      Part IV
+    </label>
+
+    <label>
+      <input type="checkbox" data-part="5" checked>
+      Part V
+    </label>
+
+    <button id="parts-none" type="button">None</button>
+    <button id="parts-all" type="button">All</button>
+  </div>
+
+  <div id="demonstration-panel" hidden>
+    <h2 id="demonstration-title"></h2>
+    <div id="demonstration-content"></div>
+  </div>
+
+  <div id="graph"></div>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+body {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+#graph {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#graph svg {
+  display: block;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  filter: brightness(0.96);
+}
+
+.node-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.node-text {
+  font-size: 12px;
+  fill: #333;
+}
+
+.node-part {
+  font-size: 10px;
+}
+
+.link {
+  fill: none !important;
+  stroke-linecap: round;
+}
+
+#controls {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 12px 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+#controls label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#controls button {
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#controls button:hover {
+  background: #f0f0f0;
+}
+
+.node {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.node-box {
+  transition:
+    stroke 0.2s,
+    stroke-width 0.2s,
+    filter 0.2s;
+}
+
+.link {
+  transition:
+    stroke 0.2s,
+    stroke-width 0.2s,
+    opacity 0.2s;
+}
+
+.dim-node {
+  opacity: 0.18;
+}
+
+.dim-link {
+  opacity: 0.08;
+}
+
+.highlight-node {
+  opacity: 1;
+}
+
+.highlight-node .node-box {
+  stroke: #e53935;
+  stroke-width: 4px;
+  filter: drop-shadow(0 0 8px rgba(229, 57, 53, 0.7));
+}
+
+.highlight-link {
+  stroke: #e53935 !important;
+  stroke-width: 4px !important;
+  opacity: 1 !important;
+}
+
+<style>
+  #demonstration-panel {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+
+  #demonstration-panel h2 {
+    margin-top: 0;
+  }
+
+  .demonstration {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+</style>
