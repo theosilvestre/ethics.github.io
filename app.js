@@ -5,14 +5,20 @@ const width = window.innerWidth;
 const height = window.innerHeight;
 
 const colors = {
-  proposition: '#3498db',
-  corollary: '#e67e22',
+  proposition: '#4a90e2',
+  corollary: '#f39c12',
   scolie: '#9b59b6',
-  definition: '#2ecc71',
+  definition: '#27ae60',
   lemma: '#e74c3c',
   axiom: '#34495e',
-  postulate: '#16a085'
+  postulate: '#16a085',
+
+  preambule: '#7f8c8d',
+  preface: '#7f8c8d',
+  appendix: '#7f8c8d',
+  chapter: '#7f8c8d'
 };
+
 
 function nodeId(node) {
   if (node.type === 'corollary' || node.type === 'scolie') {

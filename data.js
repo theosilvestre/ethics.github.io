@@ -1634,7 +1634,7 @@ const data = [
     "text": "↑ Voir ce commentaire sur Éthique I, proposition 16  Éthique démontrée suivant l'ordre géométrique"
   },
   {
-    "type": "appendix",
+    "type": "preambule",
     "part": 2,
     "text": "Je passe maintenant à l'explication de cet ordre de choses qui ont dû résulter nécessairement de l'essence de Dieu, l'être éternel et infini. Il n'est pas question de les expliquer toutes ; car il a été démontré (dans la proposition 16 de la première partie), qu'il doit y en avoir une infinité, modifiées elles-mêmes à l'infini, mais celles-là seulement qui peuvent nous mener, comme par la main, à la connaissance de l'âme humaine et de son souverain bonheur."
   },
@@ -2133,7 +2133,16 @@ const data = [
     "text": "Il suit de là que ce qui constitue l'essence de l'homme, ce sont certaines modifications des attributs de Dieu. Car l'être de la substance (par la proposition précédente) n'appartient pas à l'essence de l'homme. L'essence de l'homme est donc (par la proposition 15, partie 1) quelque chose qui est en Dieu et ne peut être sans Dieu, autrement dit (par le corollaire de la proposition 25, partie 1), une affection ou un mode qui exprime la nature de certaine façon déterminée."
   },
   {
-    "type": "unknown",
+    "type": "scolie",
+    "number": 1,
+    "parent": {
+      "type": "corollary",
+      "number": 1,
+      "parent": {
+        "type": "proposition",
+        "number": 10
+      }
+    },
     "part": 2,
     "text": "Tout le monde doit accorder que rien n'existe et ne peut être conçu sans Dieu. Car il est reconnu de tout le monde que Dieu est la cause unique de toutes choses, tant de leur essence que de leur existence ; en d'autres termes, Dieu est la cause des choses, non seulement selon le devenir, mais selon l'être. Et toutefois, si l'on écoute la plupart des philosophes, ce qui appartient à l'essence d'une chose, c'est ce sans quoi elle ne peut exister ni être conçue ; ils pensent donc de deux choses l'une, ou bien que la nature de Dieu appartient à l'essence des choses créées, au bien que les choses créées peuvent exister ou être conçues sans Dieu ; mais ce qui est plus certain, c'est qu'ils ne sont pas suffisamment d'accord avec eux-mêmes ; et la raison en est, à mon avis, qu'ils n'ont pas gardé l'ordre philosophique des idées. La nature divine, qu'ils devaient avant tout contempler, parce qu'elle est la première, aussi bien dans l'ordre des connaissances que dans l'ordre des choses, ils l'ont mise la dernière ; et ces choses qu'on appelle objet des sens, ils les ont jugées antérieures à tout le reste. Or voici ce qui est arrivé : pendant qu'ils considéraient les choses naturelles, il n'est rien à quoi ils songeassent moins qu'à la nature divine ; puis, quand ils ont élevé leur esprit à la contemplation de la nature divine, ils ont complètement oublié ces premières imaginations dont ils avaient construit leur science des choses naturelles ; et il est vrai de dire qu'elles ne pouvaient les aider en rien à la connaissance de la nature divine, de façon qu'il ne faut point être surpris de les voir se contredire de temps en temps. Mais je n'insiste pas, mon dessein n'ayant été ici que d'expliquer pourquoi je n'ai pas dit que l'essence d'une chose, c'est ce sans quoi elle ne peut exister ni être conçue. Les choses singulières, en effet, ne peuvent exister ni être conçues sans Dieu ; et cependant Dieu n'appartient point à leur essence. En conséquence, j'ai dit : ce qui constitue l'essence d'une chose, c'est ce dont l'existence emporte celle de la chose, et la destruction sa destruction, en d'autres termes, ce qui est tel que la chose ne peut exister sans lui, ni lui sans la chose."
   },
@@ -2331,12 +2340,14 @@ const data = [
     "text": " Axiome 1 sur les corps Tous les corps sont ou en mouvement ou en repos."
   },
   {
-    "type": "unknown",
+    "type": "axiom_on_bodies",
+    "number": 1,
     "part": 2,
     "text": "Tous les corps sont ou en mouvement ou en repos."
   },
   {
-    "type": "unknown",
+    "type": "axiom_on_bodies",
+    "number": 2,
     "part": 2,
     "text": "Tout corps se meut, tantôt plus lentement, tantôt plus vite."
   },
@@ -2416,7 +2427,9 @@ const data = [
         "part": 2
       },
       {
-        "type": "unknown"
+        "type": "axiom_on_bodies",
+        "number": 1,
+        "part": 2
       }
     ]
   },
@@ -2431,22 +2444,26 @@ const data = [
     "text": " Axiome 1 sur les rapports entre les corps Tous les modes dont un corps quelconque est affecté par un autre corps résultent en même temps de la nature du corps qui éprouve l'affection et de la nature du corps qui la produit, de façon qu'un seul et même corps reçoit des mouvements différents des différents corps qui le meuvent, et leur donne à son tour des mouvements différents."
   },
   {
-    "type": "unknown",
+    "type": "axiom_on_interactions_of_bodies",
+    "number": 1,
     "part": 2,
     "text": "Tous les modes dont un corps quelconque est affecté par un autre corps résultent en même temps de la nature du corps qui éprouve l'affection et de la nature du corps qui la produit, de façon qu'un seul et même corps reçoit des mouvements différents des différents corps qui le meuvent, et leur donne à son tour des mouvements différents."
   },
   {
-    "type": "unknown",
+    "type": "axiom_on_interactions_of_bodies",
+    "number": 2,
     "part": 2,
     "text": " Voilà ce que nous avions à dire sur les corps les plus simples qui ne se distinguent les uns des autres que par le mouvement et le repos, par la lenteur ou la rapidité du mouvement. Arrivons aux corps composés."
   },
   {
-    "type": "unknown",
+    "type": "definition_individual",
+    "number": 1,
     "part": 2,
     "text": "Lorsqu'un certain nombre de corps de même grandeur ou de grandeur différente sont ainsi pressés qu'ils s'appuient les uns sur les autres, ou lorsque, se mouvant d'ailleurs avec des degrés semblables ou divers de rapidité, ils se communiquent leurs mouvements suivant des rapports déterminés, nous disons qu'entre de tels corps il y a union réciproque, et qu'ils constituent dans leur ensemble un seul corps, un individu, qui, par cette union même, se distingue de tous les autres."
   },
   {
-    "type": "unknown",
+    "type": "axiom_on_interactions_of_bodies",
+    "number": 3,
     "part": 2,
     "text": "A mesure que les parties d'un individu corporel ou corps composé reposent réciproquement les unes sur les autres par des surfaces plus ou moins grandes, il est plus ou moins difficile de changer leur situation, et par conséquent de changer la figure de l'individu en question. Et c'est pourquoi j'appellerai les corps durs, quand leurs parties s'appuient l'une sur l'autre par de grandes surfaces ; mous, quand ces surfaces sont petites ; fluides, quand leurs parties se meuvent librement les unes par rapport aux autres."
   },
@@ -2991,7 +3008,9 @@ const data = [
         "part": 2
       },
       {
-        "type": "unknown"
+        "type": "axiom_on_interactions_of_bodies",
+        "number": 2,
+        "part": 2
       },
       {
         "type": "proposition",
@@ -4109,7 +4128,7 @@ const data = [
     ]
   },
   {
-    "type": "appendix",
+    "type": "preface",
     "part": 3,
     "text": "Quand on lit la plupart des philosophes qui ont traité des affects et de la conduite des hommes, on dirait qu'il n'a pas été question pour eux de choses naturelles, réglées par les lois générales de l'univers, mais de choses placées hors du domaine de la nature. Ils ont l'air de considérer l'homme dans la nature comme un empire dans un autre empire. A les en croire, l'homme trouble l'ordre de l'univers bien plus qu'il n'en fait partie ; il a sur ses actions un pouvoir absolu et ses déterminations ne relèvent que de lui-même. S'il s'agit d'expliquer l'impuissance et l'inconstance de l'homme, ils n'en trouvent point la cause dans la puissance de la nature universelle, mais dans je ne sais quel vice de la nature humaine ; de là ces plaintes sur notre condition, ces moqueries, ces mépris, et plus souvent encore cette haine contre les hommes ; de là vient aussi que le plus habile ou le plus éloquent à confondre l'impuissance de l'âme humaine passe pour un homme divin. Ce n'est pas à dire que des auteurs éminents (dont j'avoue que les travaux et la sagacité m'ont été très-utiles) n'aient écrit un grand nombre de belles choses sur la manière de bien vivre, et n'aient donné aux hommes des conseils pleins de prudence ; mais personne que je sache n'a déterminé la véritable nature des affects, le pouvoir qu'ils ont sur l'âme et celui dont l'âme dispose à son tour pour les modérer. Je sais que l'illustre Descartes, bien qu'il ait cru que l'âme a sur ses actions une puissance absolue, s'est attaché à expliquer les affects humains par leurs causes premières, et à montrer la voie par où l'âme peut arriver à un empire absolu sur ses affects ; mais, à mon avis du moins, ce grand esprit n'a réussi à autre chose qu'à montrer son extrême pénétration, et je me réserve de prouver cela quand il en sera temps. Je reviens à ceux qui aiment mieux prendre en haine ou en dérision les affects et les actions des hommes que de les comprendre. Pour ceux-là, sans doute, c'est une chose très-surprenante que j'entreprenne de traiter des vices et des folies des hommes à la manière des géomètres, et que je veuille exposer, suivant une méthode rigoureuse et dans un ordre raisonnable, des choses contraires à la raison, des choses qu'ils déclarent à grands cris vaines, absurdes, dignes d'horreur. Mais qu'y faire ? cette méthode est la mienne. Rien n'arrive, selon moi, dans l'univers qu'on puisse attribuer à un vice de la nature. Car la nature est toujours la même ; partout elle est une, partout elle a même vertu et même puissance ; en d'autres termes, les lois et les règles de la nature, suivant lesquelles toutes choses naissent et se transforment, sont partout et toujours les mêmes, et en conséquence, on doit expliquer toutes choses, quelles qu'elles soient, par une seule et même méthode, je veux dire par les règles universelles de la nature Il suit de là que les affects, tels que la haine, la colère, l'envie, et autres de cette espèce, considérés en eux-mêmes, résultent de la nature des choses tout aussi nécessairement que les autres choses singulières ; et par conséquent, ils ont des causes déterminées qui servent à les expliquer ; ils ont des propriétés déterminées tout aussi dignes d'être connues que les propriétés de telle ou telle autre chose dont la connaissance a le privilège exclusif de nous charmer. Je vais donc traiter de la nature des affects, de leur force, de la puissance dont l'âme dispose à leur égard, suivant la même méthode que j'ai précédemment appliquée à la connaissance de Dieu et de l'âme, et j'analyserai les actions et les appétits des hommes, comme s'il était question de lignes, de plans et de solides."
   },
@@ -5453,7 +5472,16 @@ const data = [
     ]
   },
   {
-    "type": "unknown",
+    "type": "scolie",
+    "number": 1,
+    "parent": {
+      "type": "corollary",
+      "number": 3,
+      "parent": {
+        "type": "proposition",
+        "number": 27
+      }
+    },
     "part": 3,
     "text": "Cette volonté, ou cet appétit de faire le bien, qui naît de la pitié que nous ressentons pour l'objet à qui nous voulons faire du bien, s'appelle dévouement, lequel n'est donc que le désir né de la pitié. Du reste, pour ce qui est de l'amour ou de la haine que nous ressentons pour celui qui fait du bien ou du mal à nos semblables, voyez le scolie de la proposition 22, partie 3."
   },
@@ -6158,7 +6186,16 @@ const data = [
     ]
   },
   {
-    "type": "unknown",
+    "type": "scolie",
+    "number": 1,
+    "parent": {
+      "type": "corollary",
+      "number": 2,
+      "parent": {
+        "type": "proposition",
+        "number": 40
+      }
+    },
     "part": 3,
     "text": "L'effort de faire du mal à ce que nous haïssons se nomme colère ; celui que nous faisons pour rendre le mal qu'on nous a fait, c'est le désir de vengeance."
   },
@@ -6208,7 +6245,16 @@ const data = [
     "text": "Celui qui croit être aimé d'une personne qu'il déteste sera en même temps assailli par la haine et par l'amour. Cela se démontre par la même voie que le premier corollaire de la proposition précédente."
   },
   {
-    "type": "unknown",
+    "type": "scolie",
+    "number": 1,
+    "parent": {
+      "type": "corollary",
+      "number": 1,
+      "parent": {
+        "type": "proposition",
+        "number": 41
+      }
+    },
     "part": 3,
     "text": "Si la haine domine, il s'efforcera de faire du mal à l'objet dont il est aimé ; et c'est là l'affect qu'on nomme cruauté, surtout quand on croit que celui qui aime n'a donné à l'autre aucun des sujets ordinaires de haine."
   },
@@ -6525,7 +6571,9 @@ const data = [
         "part": 2
       },
       {
-        "type": "unknown"
+        "type": "axiom_on_interactions_of_bodies",
+        "number": 1,
+        "part": 2
       }
     ]
   },
@@ -6839,7 +6887,9 @@ const data = [
     ],
     "references": [
       {
-        "type": "unknown"
+        "type": "axiom_on_interactions_of_bodies",
+        "number": 1,
+        "part": 2
       },
       {
         "type": "scolie",
@@ -7002,7 +7052,7 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 1,
     "part": 3,
     "text": "Le désir, c'est l'essence même de l'homme, en tant qu'elle est conçue comme déterminée à quelque action par une de ses affections quelconque. Explication : Nous avons dit plus haut, dans le scolie de la proposition 9, partie 3, que le désir, c'est l'appétit avec conscience de lui-même, et que l'appétit, c'est l'essence même de l'homme, en tant que déterminée aux actions qui servent à sa conservation. Mais nous avons eu soin d'avertir dans ce même scolie que nous ne reconnaissions aucune différence entre l'appétit humain et le désir. Que l'homme, en effet, ait ou non conscience de son appétit, cet appétit reste une seule et même chose ; et c'est pour cela que je n'ai pas voulu, pour éviter de paraître tomber dans une tautologie, expliquer le désir par l'appétit ; je me suis appliqué, au contraire, à le définir de telle sorte que tous les efforts de la nature humaine que nous appelons appétit, volonté, désir, mouvement spontané, fussent compris ensemble dans une seule définition. J'aurais pu dire, en effet, que le désir, c'est l'essence même de l'homme en tant qu'on la conçoit comme déterminée à quelque action ; mais de cette définition il ne résulterait pas (par la proposition 23, partie 2) que l'âme pût avoir conscience de son désir et de son appétit. C'est pourquoi, afin d'envelopper dans ma définition la cause de cette conscience que nous avons de nos désirs, il a été nécessaire (par la même proposition) d'ajouter : en tant qu'elle est déterminée par une de ses affections quelconque, etc. En effet, par une affection de l'essence de l'homme, nous entendons un état quelconque de cette même essence, soit inné, soit conçu par son rapport au seul attribut de la pensée, ou par son rapport au seul attribut de l'étendue, soit enfin rapporté à la fois à l'un et l'autre de ces attributs. J'entendrai donc, par le mot désir, tous les efforts, mouvements, appétits, volitions qui varient avec les divers états d'un même homme, et souvent sont si opposés les uns aux autres que l'homme, tiré en mille sens divers, ne sait plus quelle direction il doit suivre.",
@@ -7020,13 +7070,13 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 2,
     "part": 3,
     "text": "La joie est le passage d'une moindre perfection à une perfection plus grande."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 3,
     "part": 3,
     "text": "La tristesse est le passage d'une perfection plus grande à une moindre perfection. Explication : Je dis que la joie est un passage à la perfection. En effet, elle n'est pas la perfection elle-même. Si l'homme, en effet, naissait avec cette perfection où il passe par la joie, il ne ressentirait aucune joie à la posséder ; et c'est ce qui est plus clair encore pour l'affect contraire, la tristesse. Car personne ne peut nier que la tristesse ne consiste dans le passage à une moindre perfection, et non dans cette perfection elle-même, puisqu'il est visiblement impossible que l'homme, de ce qu'il participe à une certaine perfection, en ressente de la tristesse. Et nous ne pouvons pas dire que la tristesse consiste dans la privation d'une perfection plus grande ; car une privation, ce n'est rien. Or, l'affect de tristesse étant une chose actuelle ne peut donc être que le passage actuel à une moindre perfection, en d'autres termes, un acte par lequel la puissance d'agir de l'homme est diminuée ou empêchée (voir le scolie de la proposition 11, partie 3). Du reste, j'omets ici les définitions de la gaieté, du plaisir, de la mélancolie et de la douleur, parce qu'elles se rapportent principalement au corps et ne sont que des espèces de joie et de tristesse.",
@@ -7039,7 +7089,7 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 4,
     "part": 3,
     "text": "L'admiration est cette façon d'imaginer un objet qui attache l'âme exclusivement par le caractère singulier de cette représentation qui ne ressemble à aucune autre (voyez la proposition 52 et son scolie). Explication : Nous avons montré, dans le scolie de la proposition 18, partie 2, par quelle cause l'âme va de la contemplation d'un certain objet à la pensée d'un autre objet, savoir, parce que les images de ces objets sont ainsi enchaînés l'une à l'autre et dans un tel ordre que celle-ci suit celle-là. Or cela ne peut arriver quand l'âme considère une image qui lui est nouvelle. Elle doit donc y rester attachée jusqu'à ce que d'autres causes la déterminent à de nouvelles pensées. On voit par là que la représentation d'une chose qui nous est nouvelle est de la même nature, quand on la considère en elle-même, que toutes les autres représentations ; et c'est pourquoi je ne compte pas l'admiration au nombre des affects, ne voyant aucune raison de l'y comprendre, puisque cette concentration de l'âme ne vient d'aucune cause positive, mais seulement de l'absence d'une cause qui détermine l'imagination à passer d'un objet à un autre. Je ne reconnais donc (comme j'en ai déjà averti au scolie de la proposition 11, partie 3) que trois affects primitifs ou principaux, qui sont la joie, la tristesse et le désir ; et si j'ai parlé de l'admiration, c'est que l'usage a donné à certains affects qui dérivent des trois affects primitifs des noms particuliers quand ils ont rapport aux objets que nous admirons. C'est aussi cette raison qui m'engage à joindre ici la définition du mépris.",
@@ -7065,13 +7115,13 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 5,
     "part": 3,
     "text": "Le mépris est cette façon d'imaginer qui touche l'âme à un si faible degré qu'elle est moins portée par la présence de l'objet qu'elle se représente à considérer ce qu'il a que ce qu'il n’a pas. (Voyez le scolie de la proposition 52, partie 3). J'omets ici les définitions de la vénération et du dédain, parce qu'aucun affect, que je sache, ne leur emprunte son nom."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 6,
     "part": 3,
     "text": "L'amour est une joie accompagnée de l'idée de sa cause extérieure. Explication : Cette définition marque assez clairement l'essence de l'amour ; celle des auteurs qui ont donné cette autre définition : Aimer, c'est vouloir s'unir à l'objet aimé, exprime une propriété de l'amour et non son essence ; et comme ces auteurs n'avaient pas assez approfondi l'essence de l'amour, ils n'ont pu avoir aucun concept clair de ses propriétés, ce qui a rendu leur définition obscure, au jugement de tout le monde. Mais il faut observer qu'en disant que c'est une propriété de l'amant de vouloir s'unir à l'objet aimé, je n'entends pas par ce vouloir un consentement de l'âme, une détermination délibérée, une libre décision enfin (car tout cela est fantastique, comme je l'ai démontré proposition 48, partie 2) ; je n'entends pas non plus le désir de s'unir à l'objet aimé quand il est absent, ou de continuer à jouir de sa présence quand il est devant nous ; car l'amour peut se concevoir abstraction faite de ce désir. J'entends par ce vouloir la confiance en soi de l'amant en présence de l'objet aimé, laquelle ajoute à sa joie, ou du moins lui donne un aliment.",
@@ -7084,7 +7134,7 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 7,
     "part": 3,
     "text": "La haine, c'est la tristesse avec l'idée de sa cause extérieure. Explication : Les remarques à faire sur la haine résultent assez clairement de celles qui précèdent sur l'amour. (voyez en outre le scolie de la proposition 11, partie 3).",
@@ -7101,19 +7151,19 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 8,
     "part": 3,
     "text": "L'inclination est une joie accompagnée de l'idée d'un objet qui est pour nous une cause accidentelle de joie."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 9,
     "part": 3,
     "text": "L'aversion est une tristesse accompagnée de l'idée d'un objet qui est pour nous une cause accidentelle de tristesse. (voyez sur ces deux affects le scolie de la proposition 15, partie 3)."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 10,
     "part": 3,
     "text": "La dévotion, c'est l'amour d'un objet qu'on admire. Explication : Nous avons montré dans la proposition 52, partie 3, que l'admiration naît de la nouveauté des choses. Si donc il nous arrive d'imaginer souvent un objet que nous admirons, nous cesserons de l'admirer. Ce qui fait voir que l'affect de la dévotion dégénère aisément en simple amour.",
@@ -7126,7 +7176,7 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 11,
     "part": 3,
     "text": "La moquerie est une joie qui provient de ce que nous imaginons dans un objet détesté quelque chose qui nous inspire du mépris. Explication : En tant que nous méprisons un objet détesté, nous en nions l'existence (voir le scolie de la proposition 52, partie 3), et partant nous éprouvons de la joie (par la proposition 20, partie 3). Mais comme on suppose ici que l'objet de notre moquerie est cependant aussi l'objet de notre haine, il s'ensuit que cette joie n'est pas une joie solide. (Voyez le scolie de la proposition 47, partie 3).",
@@ -7157,13 +7207,13 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 12,
     "part": 3,
     "text": "L'espoir est une joie mal assurée qui provient de l'idée d'une chose future ou passée dont l'événement nous laisse quelque doute."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 13,
     "part": 3,
     "text": "La peur est une tristesse mal assurée qui provient de l'idée d'une chose future ou passée dont l'événement nous laisse quelque doute. Explication : Il suit de ces définitions qu'il n'y a pas d'espoir sans peur, ni de peur sans espoir En effet, celui dont le cœur est suspendu à l'espoir et qui doute que l'événement soit d'accord avec ses désirs, celui-là est supposé se représenter certaines choses qui excluent celle qu'il souhaite, et par cet endroit il doit être saisi de tristesse (par la proposition 19, partie 3) ; par conséquent, au moment où il espère, il doit en même temps avoir peur. Au contraire, celui qui est dans la peur, c'est-à-dire dans l'incertitude d'un événement qu'il déteste, doit aussi se représenter quelque chose qui en exclue l'existence ; et par suite (par la proposition 20, part. 3), il éprouve de la joie : d'où il s'ensuit que par cet endroit il a de l'espoir.",
@@ -7181,13 +7231,13 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 14,
     "part": 3,
     "text": "La sécurité est une joie qui provient de l'idée d'une chose future ou passée sur laquelle toute cause d'incertitude est disparue."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 15,
     "part": 3,
     "text": "Le désespoir est une tristesse qui provient de l'idée d'une chose future ou passée sur laquelle toute cause d'incertitude est disparue. Explication : La sécurité naît donc de l'espoir, et le désespoir de la peur, dès que nous n'avons plus de cause d'incertitude sur l'objet désiré ou qui nous fait peur ; et cela arrive quand l'imagination nous fait regarder une chose passée ou future comme présente, ou bien nous représente d'autres objets qui excluent l'existence de ceux qui nous causaient de l'incertitude. En effet, bien que nous ne puissions jamais (par le proposition 31, partie 2) être certains de l'avenir touchant les choses singulières, il peut arriver toutefois que nous n'en doutions nullement ; car autre chose est (nous l'avons montré au scolie de la proposition 49, partie 2) ne pas douter d'une chose et en avoir la certitude ; et il peut arriver, en conséquence, que nous éprouvions à imaginer une chose passée ou future le même affect de joie ou de tristesse que nous fait ressentir une chose présente, comme nous l'avons démontré dans la proposition 18, partie 3, à laquelle on peut recourir ainsi qu'à ses scolies 1 et 2.",
@@ -7236,31 +7286,31 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 16,
     "part": 3,
     "text": "Le jouissance est une joie accompagnée de l'idée d'une chose passée qui est arrivée contre tout espoir."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 17,
     "part": 3,
     "text": "Le déception est une tristesse accompagnée de l'idée d'une chose passée qui est arrivée contre ce que nous espérions."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 18,
     "part": 3,
     "text": "La pitié est une tristesse accompagnée de l'idée d'un mal qui est survenu à un être que l'imagination nous représente comme semblable à nous. (Voyez le scolie de la proposition 22 et le scolie de la proposition 27, partie 3). Explication : Entre la pitié et la charité, il ne semble pas qu'il y ait de différence, si ce n'est toutefois que la pitié concerne plutôt un affect singulier, et la charité sa manifestation extérieure."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 19,
     "part": 3,
     "text": "L'inclination est l'amour pour une personne qui fait du bien à une autre."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 20,
     "part": 3,
     "text": "L'indignation est la haine pour une personne qui fait du mal à une autre. Explication : Je sais que l'usage donne à ces mots un autre sens. Mais mon dessein est d'expliquer, non la signification des mots, mais la nature des choses, et il me suffit de désigner les affects de l'âme par des noms qui ne s'écartent pas complètement de la signification que l'usage leur a donnée ; que le lecteur en soit averti une fois pour toutes. Quant aux deux affects dont je viens de parler, j'en explique la cause dans le corollaire 1 de la proposition 27 et le scolie de la proposition 22, partie 3.",
@@ -7286,13 +7336,13 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 21,
     "part": 3,
     "text": "L'engouement consiste à penser d'une personne plus de bien qu'il ne faut, à cause de l'amour qu'on a pour elle."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 22,
     "part": 3,
     "text": "Le dédain consiste à penser d'une personne moins de bien qu'il ne faut, à cause de la haine qu'on a pour elle. Explication : L'engouement est donc un effet ou une propriété de l'amour, et le dédain a le même rapport avec la haine. On peut donc définir ainsi l'engouement : l'engouement, c'est l'amour en tant qu'il dispose l'homme à penser de l'objet aimé plus de bien qu'il ne faut ; et le dédain, au contraire, c'est la haine en tant qu'elle dispose l'homme à penser de l'objet haï moins de bien qu'il ne faut. (Voyez sur tout cela le scolie de la proposition 26, partie 3).",
@@ -7309,13 +7359,13 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 23,
     "part": 3,
     "text": "L'envie, c'est la haine, en tant qu'elle dispose l'homme à s'attrister du bonheur d'autrui, et au contraire à se réjouir de son malheur. Explication : À l'envie, on oppose communément la charité, laquelle peut donc se définir ainsi, en dépit de la signification du mot."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 24,
     "part": 3,
     "text": "La charité, c'est l'amour en tant qu'il dispose l'homme à se réjouir du bien d'autrui et à s'attrister de son malheur. Explication : Voyez sur l'envie le scolie de la proposition 24, et le scolie de la proposition 32, partie 3. Les divers affects de joie et de tristesse que je viens de définir sont tous accompagnées de l'idée d'une chose extérieure, comme cause immédiate ou accidentelle. Je passe maintenant à des affects accompagnés de l'idée d'une chose intérieure comme cause.",
@@ -7341,19 +7391,19 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 25,
     "part": 3,
     "text": "La confiance en soi est une joie qui provient de ce que l'homme contemple son être et sa puissance d'agir."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 26,
     "part": 3,
     "text": "L'humilité est une tristesse qui provient de ce que l'homme contemple son impuissance et sa faiblesse. Explication : La confiance en soi s'oppose à l'humilité, en tant qu'on la définit comme joie née de la contemplation de notre puissance d'agir ; mais en tant qu'on la définit d'une autre manière, savoir, une joie accompagnée de l'idée d'une action que nous croyons avoir faite par une libre décision de l'âme, elle s'oppose alors au repentir que nous définissons de la sorte :"
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 27,
     "part": 3,
     "text": "Le repentir est une tristesse accompagnée de l'idée d'une action que nous croyons avoir accomplie par une libre décision de l'âme. Explication : Nous avons montré les causes de ces deux derniers affects dans le scolie de la proposition 51, partie 3, et les propositions 53, 54, 55, partie 3, et le scolie de cette dernière. Quant à la liberté des décisions de l'âme, voyez le scolie de la proposition 35, partie 2. Mais il faut en outre remarquer ici qu'il n'est nullement surprenant que la tristesse accompagne tous les actes qu'on a coutume d'appeler mauvais, et la joie tous ceux qu'on nomme bons. On conçoit en effet par ce qui précède que tout cela dépend surtout de l'éducation. Les parents, en blâmant certaines actions et réprimandant souvent leurs enfants pour les avoir commises, et au contraire en louant et en conseillant d'autres actions, ont si bien fait que la tristesse accompagne toujours celles-là et la joie toujours celles-ci. L'expérience confirme cette explication. La coutume et la religion ne sont pas les mêmes pour tous les hommes : ce qui est sacré pour les uns est profane pour les autres, et les choses honnêtes chez un peuple sont honteuses chez un autre peuple. Chacun se repent donc ou se glorifie d'une action suivant l'éducation qu'il a reçue.",
@@ -7403,7 +7453,7 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 28,
     "part": 3,
     "text": "L'orgueil consiste à penser de soi, par amour de soi-même, plus de bien qu'il ne faut. Explication : L'orgueil diffère donc de l'engouement, l'engouement se rapportant à une personne étrangère, et l'orgueil à la personne même qui pense de soi plus de bien qu'il ne faut. Du reste, de même que l'engouement est un effet ou une propriété de l'amour qu'on a pour autrui, l'orgueil est un effet de l'amour qu'on a pour soi-même. On peut donc définir l'orgueil : l'amour de soi-même ou la confiance en soi, en tant qu'elle dispose l'homme à penser de soi plus de bien qu'il ne faut (voyez le scolie de la proposition 26, partie 3). Cet affect n'a pas de contraire ; car personne, par haine de soi, ne pense de soi moins de bien qu'il ne faut. Bien plus, il n'arrive à personne, en pensant qu'elle ne peut faire telle ou telle chose, de penser de soi moins de bien qu'il ne faut. Car toutes les fois que l'homme s'imagine qu'il est incapable de faire une chose, il est nécessaire qu'il imagine cette chose, et cela même le dispose de telle façon qu'il est effectivement incapable de la chose qu'il imagine. Et en effet, tant qu'il s'imagine qu'il ne peut faire une certaine chose, il n'est point déterminé à agir, et conséquemment il est impossible qu'il fasse la chose en question. Et toutefois, si nous considérons les choses qui dépendent uniquement de l'opinion, il nous sera possible de concevoir comment il arrive qu'un homme pense de soi moins de bien qu'il ne faut. Un homme, en effet, qui contemple avec tristesse sa propre impuissance, peut s'imaginer qu'il est l'objet du mépris universel, tandis que personne ne songe à le mépriser.- Un autre sera disposé à penser de soi moins de bien qu'il ne faut, s'il vient à nier présentement de soi-même quelque chose qui a en même temps une relation avec un avenir incertain, par exemple, s'il considère qu'il lui est impossible de rien concevoir avec certitude, de former d'autres désirs et d'accomplir d'autres actes que des actes et des désirs mauvais et honteux, etc. Enfin, nous pouvons dire qu'un homme pense de soi moins de bien qu'il ne faut quand nous le voyons par une fausse honte ne pas oser de certaines choses que ses égaux n'hésitent pas à entreprendre. Nous pouvons donc opposer à l'orgueil l'affect que je viens de décrire, et auquel je donnerai le nom de dénigrement de soi ; car, comme l'orgueil naît de la confiance en soi, de l'humilité naît le dénigrement de soi, et je la définis en conséquence.",
@@ -7420,7 +7470,7 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 29,
     "part": 3,
     "text": "Le dénigrement de soi consiste à penser de soi moins de bien qu'il n'est juste, par tristesse. Explication : Nous opposons d'ordinaire l'humilité à l'orgueil ; c'est qu'alors nous avons plus d'égard aux effets de ces deux affects qu'à leur nature. Nous appelons orgueilleux, en effet, celui qui se glorifie à l'excès (voir le scolie de la proposition 30, part. 3), qui ne parle de soi que pour exalter sa vertu et des autres que pour dire leurs vices, qui veut être mis au-dessus de tous, enfin qui prend la démarche et étale la magnificence des personnes placées fort au dessus de lui. Nous appelons humble, au contraire, celui qui rougit souvent, qui convient de ses défauts et célèbre les vertus des autres, qui se met au-dessous de tout le monde, celui enfin dont la démarche est modeste et la mise sans aucun ornement. Du reste, ces deux affects de dénigrement de soi et d'humilité sont extrêmement rares : car la nature humaine, considérée en elle-même, fait effort, en tant qu'il est en elle, contre de tels affects (voyez les propositions 15 et 54, partie 3) ; et c'est pour cela que les hommes qui passent pour les plus humbles sont la plupart du temps les plus ambitieux et les plus envieux de tous.",
@@ -7447,19 +7497,19 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 30,
     "part": 3,
     "text": "La gloire est une joie accompagnée de l'idée d'une action que nous imaginons louée par autrui."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 31,
     "part": 3,
     "text": "La honte est une tristesse accompagnée de l'idée d'une de nos actions que nous croyons l'objet du blâme d'autrui. Explication : Voyez sur ces deux affects le scolie de la proposition 30, partie 3. Mais je dois faire remarquer ici une différence entre la honte et la pudeur : car la honte est une tristesse qui suit l'action dont on a honte. La pudeur est cette peur ou crainte de la honte qui retient un homme et l'empêche de commettre une action honteuse. A la pudeur on oppose d'ordinaire l'impudence, qui n'est pas véritablement un affect, comme je le montrerai en son lieu ; mais, ainsi que j'en ai déjà prévenu le lecteur, les noms des affects marquent moins leur nature que leur usage. J'ai épuisé la définition de tous les affects qui naissent de la joie et de la tristesse. Je passe à ceux que je rattache au désir."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 32,
     "part": 3,
     "text": "Le regret, c'est le désir ou l'appétit de la possession d'une chose, lequel est entretenu par le souvenir de cette chose et en même temps empêché par le souvenir de choses différentes qui excluent l'existence de celle-là. Explication : Quand nous nous souvenons d'un certain objet, nous sommes disposés par cela même, comme je l'ai déjà dit plusieurs fois, a éprouver en y pensant le même affect que s'il était présent. Mais cette disposition, cet effort sont le plus souvent empêchés pendant la veille par les images d'autres objets qui excluent l'existence de celui-là. Lors donc que nous venons à nous rappeler un objet qui nous a affectés d'une impression de tristesse, nous faisons effort par cela même pour éprouver, en le considérant comme présent, cette même impression qu'il nous a causée. C'est pourquoi le regret n'est véritablement autre chose que cette tristesse qu'on peut opposer à la joie qui naît de l'absence d'une chose détestée (voyez sur cette joie le scolie de la proposition 47, partie 3). Mais comme le mot regret semble se rapporter au désir, j'ai cru devoir l'y rattacher dans mes définitions.",
@@ -7476,7 +7526,7 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 33,
     "part": 3,
     "text": "L'émulation est le désir d'un certain objet, lequel se forme en nous quand nous imaginons ce même désir dans les autres. Explication : Celui qui prend la fuite parce qu'il voit fuir les autres, ou qui éprouve de la crainte parce qu'il est témoin de la crainte d'autrui, celui qui en présence d'un homme dont la main se brûle retire vivement sa main et la serre contre lui-même, et donne à son corps le même mouvement que si sa main brûlait en effet, on dira de lui qu'il imite les affects d'une autre personne, et non qu'il en est l'émule. Ce n'est pas que l'on attribue l'imitation à une certaine cause et l'émulation à une cause différente : c'est seulement que l'usage a voulu qu'on réservât le nom d'émulation pour le cas où nous imitons ce qui est réputé honnête, utile ou agréable. Du reste, voyez sur la cause de l'émulation la proposition 27. partie 3, avec son scolie. J'ai aussi expliqué dans la proposition 32, partie 3, et dans son scolie, pourquoi l'envie se joint le plus souvent à cet affect.",
@@ -7512,55 +7562,55 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 34,
     "part": 3,
     "text": "La reconnaissance ou gratitude est ce désir ou ce mouvement d'amour par lequel nous nous efforçons de faire du bien à celui qu'un même affect d'amour a porté à nous en faire. (Voyez la proposition 39 et le scolie de la proposition 41, partie 3)."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 35,
     "part": 3,
     "text": "Le dévouement est le désir de faire du bien à celui qui nous inspire de la pitié. (Voyez le scolie de la proposition 27, partie 3)."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 36,
     "part": 3,
     "text": "La colère est le désir qui nous excite à faire du mal à celui que nous haïssons. (Voyez le scolie de la proposition 39)."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 37,
     "part": 3,
     "text": "Le désir de vengeance est ce désir qui nous excite par une haine réciproque à faire du mal à celui qui nous a causé quelque dommage. (Voyez le corollaire 2 de la proposition 40, partie 3, avec son scolie)."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 38,
     "part": 3,
     "text": "La cruauté ou férocité est ce désir qui nous porte à faire du mal à celui que nous aimons et qui nous inspire de la pitié. Explication : À la cruauté on oppose la clémence, qui n'est point une passion, mais une puissance de l'âme par laquelle l'homme modère sa haine et son désir de vengeance."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 39,
     "part": 3,
     "text": "La crainte est un désir d'éviter par un moindre mal un mal plus grand dont nous avons peur. (Voyez le scolie de la proposition 39, partie 3)."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 40,
     "part": 3,
     "text": "L'audace est ce désir qui porte un homme à braver, pour accomplir une action, un danger dont ses égaux ont peur."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 41,
     "part": 3,
     "text": "La couardise se dit de celui dont le désir est contrarié par la crainte d'un danger que ses égaux osent braver. Explication : La couardise n'est donc que la peur d'un mal dont généralement la plupart des hommes n'ont pas peur. C'est pourquoi je ne rapporte pas cet affect au désir. J'ai pourtant voulu l'expliquer ici, parce qu'elle est opposée, en tant qu'on a égard au désir, à l'affect d'audace."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 42,
     "part": 3,
     "text": "L'effroi se dit de celui chez qui le désir d'éviter un mal est contrarié par l'admiration d'un mal qu'il craint. Explication : L'effroi est donc une espèce de couardise. Mais comme l'effroi naît d'une double crainte, on peut la définir plus convenablement : cette peur qui enchaîne un homme stupéfait ou hésitant à ce point qu'il ne peut écarter le mal qui le menace. Je dis stupéfait, en tant que son désir d'éviter le mal est empêché par la fascination. Je dis hésitant, en tant que ce même désir est empêché en lui par la crainte d'un autre mal qui le tourmente également ; ce qui fait qu'il ne sait lequel des deux il doit éviter. (Voyez sur ce point le scolie de la proposition 39 et le scolie de la proposition 52, partie 3. Voyez aussi sur la couardise et l'audace le scolie de la proposition 51, partie 3).",
@@ -7595,13 +7645,13 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 43,
     "part": 3,
     "text": "L'humanité ou bienveillance est le désir de faire ce que plaît aux hommes et de ne pas faire ce qui leur déplaît."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 44,
     "part": 3,
     "text": "L'ambition est un désir immodéré de gloire. Explication : L'ambition est un désir qui entretient et fortifie tous les affects (par les propositions 27 et 31, partie 3), et c'est pour cela qu'il est difficile de dominer cet affect, car en tant que l'homme est sous l'empire d'un désir quelconque, il est aussi sous l'empire de celle-là. « C'est le privilège des plus nobles âmes, dit Cicéron, d'être les plus sensibles à la gloire. Les philosophes eux-mêmes, qui écrivent des traités sur le mépris de la gloire, ne manquent pas d'y mettre leur nom », etc.",
@@ -7619,25 +7669,25 @@ const data = [
     ]
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 45,
     "part": 3,
     "text": "La luxure est un désir ou un amour immodéré de la table."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 46,
     "part": 3,
     "text": "L'ivrognerie est un désir, un amour immodéré du plaisir de boire."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 47,
     "part": 3,
     "text": "L'avarice est un désir, un amour immodéré des richesses."
   },
   {
-    "type": "affect",
+    "type": "definition_affects",
     "number": 48,
     "part": 3,
     "text": "Le désir charnel est le désir, l'amour de l'union des corps. Explication : Que ce désir de l'union sexuelle soit modéré ou non, on a coutume de l'appeler désir charnel. Ces cinq derniers affects n'ont pas de contraires (comme j'en ai averti dans le scolie de la proposition 56, partie 3). Car la bienveillance est une espèce d'ambition (voyez le scolie de la proposition 29, partie 3), et j'ai déjà fait observer que la tempérance, la sobriété et la chasteté marquent la puissance de l'âme, et non une passion. Et bien qu'il puisse arriver qu'un homme avare, ambitieux ou craintif s'abstienne de tout excès dans le boire, le manger et dans l'union sexuelle ; l'avarice, l'ambition et la crainte ne sont pas contraires pour cela à l'intempérance, à l'ivrognerie, au désir charnel. Car l'avare désire le plus souvent se gorger de nourriture et de boisson, pourvu que ce soit aux dépens d'autrui. L'ambitieux, chaque fois qu'il espérera être sans témoin, ne gardera aucune mesure, et s'il vit avec des ivrognes et des voluptueux, par cela même qu'il est ambitieux, il sera d'autant plus enclin à ces deux vices. L'homme craintif enfin fait ce qu'il ne voudrait pas faire. Tout en jetant ses richesses à la mer pour éviter la mort, il n'en reste pas moins avare. Et de même celui qui excité sexuellement n'en reste pas moins excité sexuellement, tout en éprouvant de la tristesse de ne pouvoir satisfaire son penchant. Ainsi donc, en général, ces affects ne regardent pas tant l'action même de se livrer au plaisir de manger, de boire, etc., que l'appétit ou l'amour que nous ressentons. On ne peut donc rien opposer à ces affects que la générosité et le courage, comme nous le montrerons par la suite. Je passe sous silence les définitions de la jalousie et autres fluctuations de l'âme, soit parce qu'elles naissent du mélange des affects déjà définis, soit parce qu'elles n'ont pas reçu de l'usage des noms particuliers ; ce qui prouve qu'il suffit pour la pratique de la vie de les connaître en général. Du reste, il résulte clairement de la définition des affects que nous avons expliqués, qu'ils naissent tous du désir, de la joie ou de la tristesse ; ou plutôt qu'ils ne sont que ces trois affects primitifs, dont chacun reçoit de l'usage des noms divers suivant ses différentes relations et dénominations extrinsèques. Si donc on veut faire attention à la nature de ces trois affects primitifs et à ce que nous avons déjà dit touchant la nature de l'âme, on pourra définir les affects, en tant qu'ils se rapportent à l'âme, de la manière suivante :",
@@ -7663,7 +7713,7 @@ const data = [
     ]
   },
   {
-    "type": "unknown",
+    "type": "definition_affects_general",
     "part": 3,
     "text": "L'affect qu'on appelle passion de l'âme, c'est une idée confuse par laquelle l'âme affirme que le corps ou quelqu'une de ses parties a une puissance d'exister plus grande ou plus petite que celle qu'il avait auparavant, laquelle puissance étant donnée, l'âme est déterminée à penser à telle chose plutôt qu'à telle autre. Explication : Je dis d'abord qu'un affect, ou passion de l'âme, c'est une idée confuse ; car nous avons vu (proposition 3, partie 3) que l'âme ne pâtit qu'en tant qu'elle a des idées inadéquates ou confuses. Je dis ensuite : par laquelle l'âme affirme que le corps ou quelqu'une de ses parties a une puissance d'exister plus grande ou plus petite que celle qu'il avait auparavant ; car toutes les idées que nous avons des corps marquent bien plutôt (par le corollaire 2 de la proposition 16, partie 2) la constitution actuelle de notre propre corps que celle des corps extérieurs, et l'idée qui constitue la forme de l'affect doit exprimer la constitution de notre corps ou de quelqu'une de ses parties, en tant que sa puissance d'agir ou d'exister est augmentée ou diminuée, favorisée ou contrariée. Mais il est nécessaire de remarquer que quand je dis une puissance d'exister plus grande ou plus petite que celle qu'il avait auparavant, je n'entends pas dire que l'âme compare la constitution actuelle du corps avec la précédente, mais seulement que l'idée qui constitue la forme de l'affect affirme du corps quelque chose qui enveloppe plus ou moins de réalité que le corps n'en avait auparavant. Or, comme l'essence de l'âme consiste (par les propositions 11 et 13, part. 2) en ce qu'elle affirme l'existence actuelle de son corps, et que par perfection d'une chose nous entendons son essence même, il s'ensuit que l'âme passe a une perfection plus grande ou plus petite quand il lui arrive d'affirmer de son corps quelque chose qui enveloppe une réalité plus grande ou plus petite que celle qu'il avait auparavant. Lors donc que j'ai dit plus haut que la puissance de penser de l'âme était augmentée ou diminuée, je n'ai voulu dire autre chose sinon que l'âme se formait de son corps ou de quelqu'une de ses parties une idée qui enveloppait plus ou moins de vérité et de perfection qu'elle n'en affirmait précédemment ; car la supériorité des idées et la puissance actuelle de penser se mesurent sur la supériorité des objets pensés. Enfin, j'ai ajouté : laquelle puissance étant donnée, l'âme est déterminée à penser à telle chose plutôt qu'à telle autre, afin de ne pas exprimer seulement la nature de la joie et de la tristesse, laquelle est contenue dans la première partie de la définition, mais aussi celle du désir. FIN DE LA TROISIÈME PARTIE Notes  ↑ Nous corrigeons la version des Opera posthuma qui dit \"causae externae et que nombre de traducteurs rendent par cause interne en tenant compte du contexte immédiat qui pose une différence entre l'amour qui se rapporte à une cause externe et la gloire. La difficulté toutefois est qu'on perd alors la nuance entre gloire et confiance en soi. On peut cependant dire, d'après les éléments de l'ensemble de la partie III, que la gloire est une image joyeuse de soi-même qui dépend des louanges d'autrui, il y a ainsi une cause extérieure qui est intériorisée cause externe intériorisée tandis que la confiance en soi est une joie qui ne dépend pas nécessairement du jugement d'autrui.",
     "references": [
@@ -7700,7 +7750,7 @@ const data = [
     ]
   },
   {
-    "type": "appendix",
+    "type": "preface",
     "part": 4,
     "text": "Ce que j'appelle esclavage, c'est l'impuissance de l'homme à gouverner et à contenir ses affects. L'homme en effet, quand il est soumis à ses affects, ne se possède plus ; livré à la fortune, il en est dominé à ce point que tout en voyant le mieux il est souvent forcé de faire le pire. J'ai dessein d'exposer dans cette quatrième partie la cause de cet esclavage, et de dire aussi ce qu'il y a de bon et ce qu'il y a de mauvais dans les affects. Mais avant d'entrer en matière, il convient de dire quelques mots sur la perfection et l'imperfection, ainsi que sur le bien et le mal. Celui qui après avoir résolu de faire un certain ouvrage est parvenu à l'accomplir, à le parfaire, dira que son ouvrage est parfait, et quiconque connaît ou croit connaître l'intention de l'auteur et l'objet qu'il se proposait dira exactement comme lui. Par exemple, si une personne vient à voir quelque construction (et je la suppose inachevée)  et qu'elle sache que l'intention de l'architecte a été de bâtir une maison, elle dira que cette maison est imparfaite ; elle l'appellera parfaite, au contraire, aussitôt qu'elle reconnaîtra que l'ouvrage a été conduit jusqu'au point où il remplit la destination qu'on lui voulait donner. Admettez maintenant que cette personne ait devant les yeux un ouvrage tel qu'elle n'en a jamais vu de semblable et qu'elle ne connaisse pas l'intention de l'ouvrier ; elle ne pourra dire si cet ouvrage est achevé ou inachevé, parfait ou imparfait. Voilà quelle a été, à ce qu'il semble, la première signification de ces mots. Mais quand les hommes ont commencé à se former des idées universelles, à concevoir des types divers de maisons, d'édifices, de tours, etc., et à mettre certains types au-dessus des autres, il est arrivé que chacun a donné à un ouvrage le nom de parfait, quand il lui a paru conforme à l'idée universelle qu'il s'était formée, et celui d'imparfait, au contraire, quand il ne lui a pas paru complètement conforme à l'exemplaire qu'il avait conçu ; et cela, bien que cet ouvrage fût aux yeux de l'auteur parfaitement accompli. Telle est, à n'en pas douter, la raison qui explique pourquoi l'on donne communément le nom de parfaites ou d'imparfaites aux choses de la nature, lesquelles ne sont pourtant pas l'ouvrage de la main des hommes. Car les hommes ont coutume de se former des idées universelles tant des choses de la nature que de celles de l'art, et ces idées deviennent pour eux comme les modèles des choses. Or, comme ils  sont persuadés  d'ailleurs que la nature ne fait rien que pour une certaine fin, ils s'imaginent qu'elle contemple ces modèles et les imite dans ses ouvrages. C'est pourquoi, quand ils voient un être se former dans la nature, qui ne cadre pas avec l'exemplaire idéal qu'ils ont conçu d'un être semblable, ils croient que la nature a été en défaut, qu'elle a manqué son ouvrage, qu'elle l'a laissé imparfait. Nous voyons donc que l'habitude où sont les hommes de donner aux choses le nom de parfaites ou d'imparfaites est fondée sur un préjugé plutôt que sur une vraie connaissance de la nature. Nous avons montré, en effet, dans l'appendice de la première partie, que la nature n'agit jamais pour une fin. Cet être éternel et infini que nous nommons Dieu ou nature agit comme il existe, avec une égale nécessité. La nécessité qui le fait être est la même qui le fait agir (proposition 16, partie 1). La raison donc ou la cause par laquelle il agit, et par laquelle il existe, est donc une seule et même raison, une seule et même cause. Or, comme il n'existe pas à cause d'une certaine fin, ce n'est pas non plus pour une fin qu'il agit. Il est lui-même le principe de l'action comme il est celui de l'existence, et n'a rien à voir avec aucune fin. Cette espèce de cause, qu'on appelle finale, n'est rien autre chose que l'appétit humain, en tant qu'on le considère comme le principe ou la cause principale d'une certaine chose. Par exemple, quand nous disons que la cause finale d'une maison c'est de se loger, nous n'entendons rien de plus par là sinon que l'homme, s'étant représenté les avantages de la vie domestique, a eu le désir de bâtir une maison. Ainsi donc cette cause finale n'est rien de plus que le désir particulier qu'on vient de dire, lequel est vraiment la cause efficiente de la maison ; et cette cause est pour les hommes la cause première, parce qu'ils sont dans une ignorance commune des causes de leurs appétits. Ils ont bien conscience, en effet, comme je l'ai souvent répété, de leurs actions et de leurs désirs, mais ils ne connaissent pas les causes qui les déterminent à désirer telle ou telle chose. Quant à cette pensée du vulgaire, que la nature est quelquefois en défaut, qu'elle manque son ouvrage et produit des choses imparfaites, je la mets au nombre de ces chimères dont j'ai traité dans l'appendice de la première partie. Ainsi donc la perfection et l'imperfection ne sont véritablement que des façons de penser, des notions que nous sommes accoutumés à nous faire en comparant les uns aux autres les individus d'une même espèce ou d'un même genre, et c'est pour cela que j'ai dit plus haut (définition 6, partie 2) que réalité et perfection étaient pour moi la même chose. Nous sommes habitués en effet à rapporter tous les individus de la nature à un seul genre, auquel on donne le nom de généralissime, savoir, la notion de l'être qui embrasse d'une manière absolue tous les individus de la nature. Quand donc nous rapportons les individus de la nature à ce genre unique, et qu'en les comparant les uns aux autres nous reconnaissons que ceux-ci ont plus d'entité ou de réalité que ceux-là, nous disons qu'ils ont plus de perfection ; et quand nous attribuons à certains individus quelque chose qui implique une négation, comme une limite, un terme, une certaine impuissance, etc., nous les appelons imparfaits, par cette seule raison qu'ils n'affectent pas notre âme de la même manière que ceux que nous nommons parfaits ; et ce n'est point à dire pour cela qu'il leur manque quelque chose qui soit compris dans leur nature, ou que la nature ait manqué son ouvrage. Rien en effet ne convient à la nature d'une chose que ce qui résulte nécessairement de la nature de sa cause efficiente, et tout ce qui résulte nécessairement de la nature d'une cause efficiente se produit nécessairement. Le bien et le mal ne marquent non plus rien de positif dans les choses considérées en elles-mêmes, et ne sont autre chose que des façons de penser, ou des notions que nous formons par la comparaison des choses. Une seule et même chose en effet peut en même temps être bonne ou mauvaise ou même indifférente. La musique, par exemple, est bonne pour un mélancolique qui se lamente sur ses maux ; pour un sourd, elle n'est ni bonne ni mauvaise. Mais, bien qu'il en soit ainsi, ces mots de bien et de mal, nous devons les conserver. Désirant en effet nous former de l'homme une idée qui soit comme un modèle que nous puissions contempler, nous conserverons à ces mots le sens que nous venons de dire. J'entendrai donc par bien, dans la suite de ce traité, tout ce qui est pour nous un moyen certain d'approcher de plus en plus du modèle que nous nous formons de la nature humaine ; par mal, au contraire, ce qui nous empêche de l'atteindre. Et nous dirons que les hommes sont plus ou moins parfaits, plus ou moins imparfaits suivant qu'ils se rapprochent ou s'éloignent plus ou moins de ce même modèle. Il est important de remarquer ici que quand je dis qu'une chose passe d'une moindre perfection à une perfection plus grande, ou réciproquement, je n'entends pas qu'elle passe d'une certaine essence, d'une certaine forme, à une autre (supposez, en effet, qu'un cheval devienne un homme ou un insecte : dans les deux cas, il est également détruit) ; j'entends par là que nous concevons la puissance d'agir de cette chose, en tant qu'elle est comprise dans sa nature, comme augmentée ou diminuée. Ainsi donc, en général, j'entendrai par perfection d'une chose sa réalité ; en d'autres termes, son essence en tant que cette chose existe et agit d'une manière déterminée. Car on ne peut pas dire d'une chose qu'elle soit plus parfaite qu'une autre parce qu'elle persévère pendant plus longtemps dans l'existence. La durée des choses, en effet, ne peut se déterminer d'après leur essence ; l'essence des choses n'enveloppe aucune durée fixe et déterminée ; mais chaque chose, qu'elle soit plus parfaite ou qu'elle le soit moins, tend à persévérer dans l'être avec la même force par laquelle elle a commencé d'exister ; de façon que sous ce point de vue toutes choses sont égales.",
     "references": [
@@ -8346,7 +8396,7 @@ const data = [
         "part": 4
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 1,
         "part": 3
       },
@@ -8457,7 +8507,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 1,
         "part": 3
       },
@@ -8547,7 +8597,7 @@ const data = [
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 1,
         "part": 3
       }
@@ -8604,7 +8654,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 1,
         "part": 3
       },
@@ -9144,7 +9194,7 @@ const data = [
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 7,
         "part": 3
       },
@@ -9353,7 +9403,7 @@ const data = [
         "part": 4
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 1,
         "part": 3
       },
@@ -9775,7 +9825,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 6,
         "part": 3
       },
@@ -9872,7 +9922,16 @@ const data = [
     "text": "Tout ce que nous désirons par l'effet de la haine est infâme et, dans l’État, contraire à la justice. C'est ce qui résulte également de la proposition 39, partie 3, et de la définition des choses infâmes et injustes (voyez le scolie de la proposition 37, partie 4)."
   },
   {
-    "type": "unknown",
+    "type": "scolie",
+    "number": 1,
+    "parent": {
+      "type": "corollary",
+      "number": 2,
+      "parent": {
+        "type": "proposition",
+        "number": 45
+      }
+    },
     "part": 4,
     "text": "Entre la moquerie (dont j'ai dit qu'elle était mauvaise dans le corollaire 1) et le rire, je reconnais une grande différence ; car le rire, comme le jeu, est une joie pure ; par conséquent il ne peut avoir d'excès et de soi il est bon (par la proposition 41, partie 4). En quoi, en effet, est-il plus convenable de soulager sa faim ou sa soif que de chasser la mélancolie ? Telle est du moins ma manière de voir, quant à moi, et j'ai disposé mon esprit en conséquence. Aucune divinité, ni qui que ce soit, excepté un envieux, ne peut prendre plaisir au spectacle de mon impuissance et de mes misères, et m'imputer à bien les larmes, les sanglots, la peur, tous ces signes d'une âme impuissante. Au contraire, plus nous avons de joie, plus nous acquérons de perfection ; en d'autres termes, plus nous participons nécessairement à la nature divine. Il est donc d'un homme sage d'user des choses de la vie et d'en jouir autant que possible (pourvu que cela n'aille pas jusqu'au dégoût, car alors ce n'est plus jouir). Oui, il est d'un homme sage de se réparer par une nourriture modérée et agréable, de charmer ses sens du parfum et de l'éclat verdoyant des plantes, d'orner même son vêtement, de jouir de la musique, des jeux, des spectacles et de tous les divertissements que chacun peut se donner sans dommage pour personne. En effet, le corps humain se compose de plusieurs parties de différente nature, qui ont continuellement besoin d'aliments nouveaux et variés, afin que le corps tout entier soit plus propre à toutes les fonctions qui résultent de sa nature, et par suite, afin que l'âme soit plus propre, à son tour, aux fonctions de la pensée. Cette règle de conduite que nous donnons est donc en parfait accord et avec nos principes, et avec la pratique ordinaire. Si donc il y a des règles différentes, celle-ci est la meilleure et la plus recommandable de toutes façons, et il n'est pas nécessaire de s'expliquer sur ce point plus clairement et avec plus d'étendue."
   },
@@ -9945,17 +10004,17 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 13,
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 12,
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 13,
         "part": 3
       },
@@ -9991,12 +10050,12 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 21,
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 22,
         "part": 3
       },
@@ -10031,7 +10090,7 @@ const data = [
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 30,
         "part": 3
       },
@@ -10041,7 +10100,7 @@ const data = [
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 28,
         "part": 3
       }
@@ -10057,7 +10116,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 18,
         "part": 3
       },
@@ -10117,7 +10176,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 19,
         "part": 3
       },
@@ -10142,7 +10201,7 @@ const data = [
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 19,
         "part": 3
       }
@@ -10168,7 +10227,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 25,
         "part": 3
       },
@@ -10219,7 +10278,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 26,
         "part": 3
       },
@@ -10250,7 +10309,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 27,
         "part": 3
       }
@@ -10276,12 +10335,12 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 28,
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 29,
         "part": 3
       }
@@ -10357,12 +10416,12 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 6,
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 28,
         "part": 3
       },
@@ -10402,7 +10461,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 30,
         "part": 3
       },
@@ -10487,12 +10546,12 @@ const data = [
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 4,
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 1,
         "part": 3
       },
@@ -10576,7 +10635,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 1,
         "part": 3
       },
@@ -10666,7 +10725,7 @@ const data = [
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 13,
         "part": 3
       }
@@ -10713,7 +10772,16 @@ const data = [
     ]
   },
   {
-    "type": "unknown",
+    "type": "scolie",
+    "number": 1,
+    "parent": {
+      "type": "corollary",
+      "number": 1,
+      "parent": {
+        "type": "proposition",
+        "number": 63
+      }
+    },
     "part": 4,
     "text": "Ce corollaire devient très clair par l'exemple d'un malade et d'un homme en santé. Le malade prend des aliments qui lui répugnent par crainte de la mort ; l'homme en santé se nourrit avec plaisir, et de cette façon il jouit mieux de la vie que s'il craignait la mort et avait pour but immédiat de s'en préserver."
   },
@@ -10732,7 +10800,7 @@ const data = [
         "part": 4
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 3,
         "part": 3
       },
@@ -10941,12 +11009,12 @@ const data = [
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 40,
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 41,
         "part": 3
       }
@@ -11041,7 +11109,7 @@ const data = [
         "part": 4
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 34,
         "part": 3
       }
@@ -11339,7 +11407,7 @@ const data = [
     "text": "Mais la puissance humaine est très limitée, et la puissance des causes extérieures la surpasse infiniment ; c'est pourquoi nous ne disposons pas d'une puissance absolue pour approprier les objets du dehors à notre usage. Cependant nous supporterons toujours d'une âme égale les événements contraires à nos intérêts, si nous avons la conscience que nous avons accompli notre devoir, et que la puissance dont nous disposons n'a pas été assez étendue pour écarter le mal ; car nous ne sommes qu'une partie de la nature, et il faut suivre l'ordre universel. Or, aussitôt que nous aurons compris cela d'une façon claire et distincte, cette partie de notre être qui se définit par l'intelligence, c'est-à-dire la meilleure partie de nous-mêmes, trouvera dans cette idée une sérénité parfaite et s'efforcera d'y persévérer. Car en tant que nous possédons l'intelligence, nous ne pouvons désirer que ce qui est conforme à l'ordre nécessaire des choses et trouver le repos que dans la vérité. Par conséquent, notre condition véritable une fois bien connue, l'effort de la meilleure partie de nous-mêmes se trouve d'accord avec l'ordre universel de la nature.  FIN DE LA QUATRIÈME PARTIE"
   },
   {
-    "type": "appendix",
+    "type": "preface",
     "part": 5,
     "text": "Je passe enfin à cette partie de l'Éthique qui a pour objet de montrer la voie qui conduit à la liberté. J'y traiterai de la puissance de la raison, en expliquant quel est l'empire qu'elle peut exercer sur les affects ; je dirai ensuite en quoi consistent la liberté de l'âme et son bonheur ; on pourra mesurer alors la différence qui sépare le savant de l'ignorant. Quant à la manière de perfectionner son esprit et de gouverner son corps pour le rendre propre aux fonctions qu'il doit remplir, cela n'est pas de notre sujet, et rentre dans la médecine et dans la logique. Je ne traite ici, encore un coup, que de la puissance de l'âme ou de la raison, et avant tout, de la nature et de l'étendue de l'empire qu'elle exerce pour réprimer et gouverner nos affects. Nous avons déjà démontré que cet empire n'est pas absolu. Les stoïciens ont voulu soutenir que nos affects dépendent entièrement de notre volonté, et que nous pouvons les gouverner avec une autorité sans bornes ; mais l'expérience les a contraints d'avouer, en dépit de leurs principes, qu'il ne faut pas peu de soins et d'habitude pour contenir et régler nos affects. C'est ce que, si j'ai bonne mémoire, quelqu'un s'est avisé de démontrer par l'exemple de deux chiens, l'un domestique, l'autre chasseur, que l'on parvint à dresser de telle sorte que le chien domestique faisait la guerre aux lièvres, tandis que le chien de chasse s'abstenait de les poursuivre. Descartes est tout à fait favorable à cette opinion. Car l'âme est, suivant lui, unie principalement à une certaine partie du cerveau qu'on nomme la glande pinéale, par le moyen de laquelle l'âme sent tous les mouvements du corps et les objets extérieurs, et que l'esprit met en branle de diverses façons par l'effet de sa seule volonté. Cette glande est suspendue de telle sorte au milieu du cerveau que le moindre mouvement des esprits animaux suffit pour la mouvoir. Cette suspension se diversifie suivant l'action des esprits sur la glande, et la glande elle-même reçoit toutes les impressions que les objets extérieurs communiquent aux esprits animaux ; d'où il résulte que si la volonté de l'âme place la glande dans une position où les esprits l'avaient déjà mise une autre fois, elle réagit sur eux à son tour, et les met dans la disposition où ils étaient ; quand ils exercèrent sur elle cette influence. En outre, dans la théorie de Descartes, chaque détermination de la volonté est unie à un certain mouvement de la glande. Par exemple, que quelqu'un veuille regarder un objet éloigné, ce vouloir aura pour effets de dilater sa pupille ; mais s'il veut précisément dilater sa pupille et rien de plus, ce vouloir ne sera pas efficace, parce que le mouvement de la glande qui sert à pousser les esprits vers le nerf optique pour dilater ou contracter la prunelle n'a pas été attaché par la nature à la volonté de la dilater ou de la contracter, mais bien à la volonté de regarder des objets éloignés ou rapprochés. Enfin Descartes établit que ces mouvements de la glande ; attachés par la nature dès le commencement de notre vie à chacune de nos pensées, peuvent être unis à d'autres pensées par l'effet de l'habitude ; c'est ce qu'il s'efforce d'établir dans l'article 50 de la 1re partie, des Passions de l'âme. La conclusion est qu'il n'est point d'âme si faible qu'une bonne direction ne puisse rendre maîtresse souveraine de ses passions. Il définit les passions des perceptions, des sentiments ou des  émotions de l'âme, qui lui sont rapportés spécialement et qui sont produits, conservés et augmentés par quelque mouvement des esprits (voyez art. 27, 1re partie, des Passions de l'âme). Or, si à telle volition, nous pouvons, à notre gré, joindre tel mouvement de la glande, et par conséquent des esprits, et que la détermination de la volonté ne dépende que de notre seule puissance, il ne reste plus, pour acquérir un empire absolu sur nos passions, qu'à soumettre notre volonté aux principes fixes et arrêtés dont nous voulons faire les mobiles de notre conduite, et à conformer à ces principes les mouvements des passions que nous voulons avoir. Telle est, autant que je la puis comprendre, la doctrine de ce grand homme, et je m'étonnerais qu'il l'eût proposée si elle était moins ingénieuse. Je ne puis assez m'étonner que ce philosophe, qui a pris pour règle de ne tirer des conclusions que de principes évidents par eux-mêmes, et de ne rien affirmer qu'il n'en eût une conception claire et distincte ; qui d'ailleurs reproche si souvent à l'école d'expliquer les choses obscures par les qualités occultes, se contente d'une hypothèse plus occulte que les qualités occultes elles-mêmes. Qu'entend-il, je le demande, par l'union de l'âme et du corps ? Quelle idée claire et distincte peut-il avoir d'une pensée étroitement unie à une portion de l'étendue ? Je voudrais au moins qu'il eût expliqué cette union par la cause prochaine. Mais dans sa philosophie la distinction entre l'âme et le corps est si radicale qu'il n'aurait pu assigner une cause déterminée ni à cette union ni à l'âme elle-même, et il aurait été contraint de recourir à la cause de l'univers, c'est-à-dire à Dieu. Je voudrais savoir aussi combien de degrés de mouvement l'esprit peut donner à cette glande pinéale, et avec quel degré de force il peut la tenir suspendue. Je ne sais si le mouvement que lui imprime l'âme est plus rapide ou plus lent que celui qui lui vient des esprits animaux, et si le mouvement des passions, que nous avons étroitement uni à des principes arrêtés, ne pourrait pas en être séparé par des causes corporelles ; d'où il résulterait que, malgré la résolution prise par l'âme d'aller au-devant du péril, et l'union opérée entre cette résolution et le mouvement qui produit l'audace, la glande pourrait se trouver, à la vue du péril, suspendue de telle sorte que l'âme se vit hors d'état de songer à autre chose qu'à la fuite. Et certes, puisqu'il n'y a aucun rapport entre la volonté et le mouvement, il n'y a rien de commun entre la puissance ou les forces de l'esprit et celles du corps, et par conséquent les forces de l'un ne peuvent être déterminées par celles de l'autre. Ajoutez que cette glande n'est pas placée dans le cerveau de manière à recevoir facilement tant d'impulsions diverses, et que tous les nerfs ne s'étendent pas jusqu'aux cavités du cerveau. Enfin je passe tout ce qu'il dit sur la volonté et le libre arbitre, car j'ai démontré suffisamment toute la fausseté de sa doctrine sur ce point. Ainsi, puisque la puissance de l'âme, comme je l'ai fait voir, est déterminée par l'intelligence toute seule, nous ne chercherons que dans la connaissance de l'âme ces remèdes des affects que tout le monde essaye, mais que personne ne sait ni bien employer ni bien connaître, et c'est exclusivement de cette connaissance que nous conclurons tout ce qui regarde son bonheur."
   },
@@ -11421,12 +11489,12 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 6,
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 7,
         "part": 3
       }
@@ -11956,7 +12024,7 @@ const data = [
         "part": 5
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 6,
         "part": 3
       }
@@ -12020,12 +12088,12 @@ const data = [
         "part": 1
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 2,
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 3,
         "part": 3
       }
@@ -12071,7 +12139,7 @@ const data = [
         "part": 3
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 7,
         "part": 3
       }
@@ -12152,7 +12220,7 @@ const data = [
         "part": 4
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 23,
         "part": 3
       },
@@ -12503,7 +12571,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 1,
         "part": 3
       }
@@ -12534,7 +12602,7 @@ const data = [
         "part": 5
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 2,
         "part": 3
       },
@@ -12544,7 +12612,7 @@ const data = [
         "part": 2
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 25,
         "part": 3
       }
@@ -12569,7 +12637,7 @@ const data = [
         "part": 2
       },
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 1,
         "part": 3
       }
@@ -12721,7 +12789,7 @@ const data = [
     ],
     "references": [
       {
-        "type": "affect",
+        "type": "definition_affects",
         "number": 25,
         "part": 3
       },

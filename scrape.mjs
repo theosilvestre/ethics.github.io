@@ -89,6 +89,41 @@ function parseReference(input, part) {
     };
   }
 
+  match = anchor.match(/^Définition_(\d+)$/i);
+  if (match) {
+    return {
+      type: 'definition',
+      number: Number(match[1]),
+      ...(part !== undefined && { part })
+    };
+  }
+
+  match = anchor.match(/^Définition_de_l'individu$/i);
+  if (match) {
+    return {
+      type: 'definition_individual',
+      number: Number(match[1]) ? Number(match[1]) : 1,
+      ...(part !== undefined && { part })
+    };
+  }
+
+  match = anchor.match(/^(\d+)$/i);
+  if (match) {
+    return {
+      type: 'definition_affects',
+      number: Number(match[1]),
+      ...(part !== undefined && { part })
+    };
+  }
+
+  match = anchor.match(/^Définition_générale_des_affects$/i);
+  if (match) {
+    return {
+      type: 'definition_affects_general',
+      ...(part !== undefined && { part })
+    };
+  }
+
   match = anchor.match(/^Corollaire(?:_(\d+))?_de_la_proposition_(\d+)$/i);
   if (match) {
     return {
@@ -117,10 +152,45 @@ function parseReference(input, part) {
     };
   }
 
+  match = anchor.match(
+    /^Scolie(?:_(\d+))?_du_corollaire(?:_(\d+))?_(?:de_la|du)_(proposition|lemme)_(\d+)$/i
+  );
+  if (match) {
+    return {
+      type: 'scolie',
+      number: Number(match[1]) ? Number(match[1]) : 1,
+      parent: {
+        type: "corollary",
+        number: Number(match[2]) ? Number(match[2]) : 1,
+        parent: {
+          type: match[3].toLowerCase(),
+          number: Number(match[4])
+        }
+      },
+      ...(part !== undefined && { part })
+    };
+  }
+
   match = anchor.match(/^Axiome_(\d+)$/i);
   if (match) {
     return {
       type: 'axiom',
+      number: Number(match[1]),
+      ...(part !== undefined && { part })
+    };
+  }
+  match = anchor.match(/^Axiome_(\d+)_sur_les_corps$/i);
+  if (match) {
+    return {
+      type: 'axiom_on_bodies',
+      number: Number(match[1]),
+      ...(part !== undefined && { part })
+    };
+  }
+  match = anchor.match(/^Axiome_(\d+)_sur_les_rapports_entre_les_corps$/i);
+  if (match) {
+    return {
+      type: 'axiom_on_interactions_of_bodies',
       number: Number(match[1]),
       ...(part !== undefined && { part })
     };
@@ -153,23 +223,6 @@ function parseReference(input, part) {
     };
   }
 
-  match = anchor.match(/^(\d+)$/i);
-  if (match) {
-    return {
-      type: 'affect',
-      number: Number(match[1]),
-      ...(part !== undefined && { part })
-    };
-  }
-
-  match = anchor.match(/^D.C3.A9finition_g.C3.A9n.C3.A9rale_des_affects$/i);
-  if (match) {
-    return {
-      type: 'general definition of affects',
-      ...(part !== undefined && { part })
-    };
-  }
-
   match = anchor.match(/^Appendice$/i);
   if (match) {
     return {
@@ -181,7 +234,7 @@ function parseReference(input, part) {
   match = anchor.match(/^Préambule/i);
   if (match) {
     return {
-      type: 'appendix',
+      type: 'preambule',
       ...(part !== undefined && { part })
     };
   }
@@ -189,7 +242,7 @@ function parseReference(input, part) {
   match = anchor.match(/^Préface/i);
   if (match) {
     return {
-      type: 'appendix',
+      type: 'preface',
       ...(part !== undefined && { part })
     };
   }
